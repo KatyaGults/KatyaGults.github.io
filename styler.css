@@ -1,0 +1,201 @@
+	#header {
+	width: 100%;
+	margin-top: -20px;
+	height: 200px;
+	background-color: FFFFFF;
+	z-index:1;
+		}
+			#name {
+			text-align: center; 
+			font-weight: 500;
+			font-family: "Courier New" serif monospace;
+			font-size: 40px;
+			padding:0;
+				}	
+				#header img { 
+					  margin-left: 42%;
+					  height: 40px;
+					  padding: none;
+					  margin-bottom; 50px;
+					  text-align: center;
+					}
+		
+		#menu {
+			width: 100%; 
+			text-align: center; 
+			background-color: CCCCFF;
+			color: #13004d; 
+			}
+		a {
+			text-decoration: none;
+			font-size: 1.5em;
+			font-family: "Courier New" serif monospace;
+			display: inline-block;
+			padding-right: 30px;
+			margin-right: 30px;
+			color: #13004d;
+			 font-variant: small-caps;
+			}
+			
+	
+		p {
+			font-size: 1.0em;
+			font-family: "Verdana", sans-serif;
+			
+		}
+		
+		.info {
+			font-family:"Open Sans";
+			font-variant: normal;
+			font-weight: normal;
+			font-style: normal;
+			letter-spacing: 1.5px;
+			line-height: 1.8;
+			font-size: 30px;
+			color:  #13004d; 
+			}
+		li {
+			font-family: "Open Sans";
+			font-size: 30px;
+			background-color:#ece6ff;
+			color:#867979;
+			}
+			/* why some letters are different in the same setting for the font etc.?*/
+	.left {
+		margin: 30px;
+		width:1100px;
+		margin-right: auto;
+		margin-left:auto;
+	}
+	.left img {
+	 	margin-top:20px;}
+
+	.right {
+		margin-left:50px;
+		float:right;
+		clear:right;
+		padding:40px;
+		position: relative; 
+		letter-spacing: 1px;
+		color:#131339;
+		background-color:#ece6ff;
+		width: 500px;
+		height: 100px
+		text-align: 
+		text-indent: 100px;
+		line-height: 1.8;
+		font-family:Courier New; 
+		}
+		
+		
+		.projects {
+		text-indent: 100px;
+		line-height: 1.8;
+		font-family:Courier New; 
+		color:#131339;
+		background-color:#ece6ff;
+		}
+		
+		.project-headings {
+			font-family: "Open Sans";
+			text-align: center;
+			font-size: 30px;
+			color:#867979;
+			/*Is it possible to make the background color only of befind the paragraph part, not toucjing the header and image?*/
+		}
+	
+	
+		#project1 {
+		float:left;
+		display: inline;
+		position: relative; 
+		width:30%;
+		padding:10px;
+		border-style: 2px solid #A8A8A8;
+		border-style: ridge;
+		margin: 10px;
+		/* how to make to space between the 3 projects s that their borders will unite nicely?*/ 
+		}
+		#project2 {
+		width:30%;
+		float: right;
+		position: relative; 
+		display: inline;
+		padding:10px;
+		border-style: 2px solid #A8A8A8;
+		border-style: ridge; 
+		margin: 10px;
+		/* why this div is a little bit below than others*/ 
+		}
+		#project3 {
+		width:30%;
+		float:right;
+		position: relative; 
+		display: inline;
+		padding:10px;
+		border-style: 2px solid #A8A8A8;
+		border-style: ridge; 
+		margin: 10px;
+		}
+	
+		#project1 img{
+				/*how to put the picture in the center above the pragrpah? Why doesn't the width-setting work for this pictures?*/
+				height: 150px;
+				width: 150px; }
+				
+		#project2 img{
+				height:300px;
+				width: 300px; }
+		#project3 img{
+				height:300px;
+				width: 300px;}				
+				
+		#footer {
+		/* how to make the adress in my footer be in the center, not up??*/
+			height: 50px;
+			width: 100%;
+			background-color: 9999CC;
+			clear: both;
+			font-family: "Verdana", sans-serif;
+			font-size: 14px;
+			text-align: center;
+			color: #ffffff;	
+			bottom:0;
+   			position: relative; 
+		}
+		
+		#footer.p {
+		margin-top:20px;
+		padding-top:15px;
+		}
+		
+		#email{
+			text-align: center;
+			border-radius: 5px;
+			border: 1px solid;
+			border-color:FFFFFF;
+			background-color: CCCCFF;
+			height: 32px;
+			width: 120px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			text-align:center;
+			float:right;
+			color: #867979;
+			font-style: italic;
+			font-size: 20px;
+		}
+	
+		
+		#content img{
+		width: 30%; 
+		padding:16px;
+		}
+		
+		#content {
+			width: 100%;
+			margin-top: 50px; 
+			clear: both;
+			display: inline;
+			padding:10px;
+}
