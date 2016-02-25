@@ -141,7 +141,8 @@
 		#project1 img{
 				height: 270px;
 				width: 330px; 
-				align: middle;
+				margin-left: auto;
+    				margin-right: auto;
 		}
 				
 		#project2 img{
