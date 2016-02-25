@@ -26,6 +26,10 @@
 			background-color: CCCCFF;
 			color: #13004d; 
 			}
+			
+			a:visited {text-decoration: underline;}
+			a:active {text-decoration: underline;}
+			a:hover {text-decoration: underline;}
 		a {
 			text-decoration: none;
 			font-size: 1.5em;
