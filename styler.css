@@ -11,7 +11,8 @@
 			font-family: "Courier New" serif monospace;
 			font-size: 40px;
 			padding:0;
-				}	
+				}
+				#name {font-family: "Courier New" serif monospace;}
 				#header img { 
 					  margin-left: 42%;
 					  height: 40px;
