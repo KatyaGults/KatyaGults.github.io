@@ -27,7 +27,7 @@
 			color: #13004d; 
 			}
 			
-			a:visited {text-decoration: underline;}
+		
 			a:active {text-decoration: underline;}
 			a:hover {text-decoration: underline;}
 		a {
@@ -41,7 +41,7 @@
 			 font-variant: small-caps;
 			}
 			
-	
+	a:visited {text-decoration: underline;}
 		p {
 			font-size: 1.0em;
 			font-family: "Verdana", sans-serif;
